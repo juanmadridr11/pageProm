@@ -1,3 +1,8 @@
+*{
+    scroll-behavior: smooth;
+    
+}
+
 .seccion-1{
 
     height: 1rem;
