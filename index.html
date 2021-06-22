@@ -26,9 +26,9 @@
        <nav class="menu">
            <ul>
 
-            <li id="li-1">Ninez</li>
-            <li>Adolecencia</li>
-            <li>Juventud</li>
+            <li id="li-1" class="titulo">Ninez</li>
+            <li class="titulo">Adolecencia</li>
+            <li class="titulo">Juventud</li>
         
            </ul> 
 
@@ -125,5 +125,10 @@
     duration:0.5,
     rotate:6000,
 
+  })
+  gsap.from('.titulo',{
+    duration:0.5,
+    scale:0,
+    delay:0.3,
   })
 </script>
