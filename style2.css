@@ -285,3 +285,34 @@ div input{
  
     
 }
+@media screen and (max-width:290px) {
+
+    ul li{
+    
+        font-size: 0.3rem;
+     
+        
+    }
+    header p{
+        font-size: 0.8rem !important;
+    }
+    .section-1 h1{
+        font-size: 0.8em;
+    }
+    
+    .container p{
+        font-size: 0.6rem;
+    }
+   
+    .slide{
+        overflow: hidden;
+        width: 12rem !important;
+        
+    }
+    #boton-1{
+        margin-top: 2rem;
+        margin-bottom: -1rem;
+    }
+ 
+    
+}
