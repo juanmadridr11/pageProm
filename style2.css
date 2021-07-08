@@ -260,3 +260,28 @@ div input{
     
   
 }
+
+@media screen and (max-width:350px) {
+
+    ul li{
+    
+        font-size: 0.5rem;
+     
+        
+    }
+    .section-1 h1{
+        font-size: 0.8rem;
+    }
+    
+    .container p{
+        font-size: 0.6rem;
+    }
+   
+    .slide{
+        overflow: hidden;
+        width: 15rem !important;
+        
+    }
+ 
+    
+}
